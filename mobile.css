@@ -1,0 +1,133 @@
+@media (max-width: 400px) {
+    body{
+        background-color: #fff;
+        
+    }
+    .left-sibe-bar{
+        height: 45.2rem;
+    }
+    .social-corner{
+        padding: 1.2rem .5rem;
+    }
+    .main-flex-container{
+        overflow: hidden;
+    }
+    .manuBar-flex{
+        display: flex;
+        align-items: baseline;
+        gap: 18rem;
+        background-color: #1d1c25de;
+        padding: 1rem 0;
+        position: fixed;
+        top: 0;
+    }
+    .main-header-banner{
+        width: 21.5rem;
+        margin: 4rem 0 0 .5rem ;
+    }
+    .main-header-banner div img{
+        width: 18rem;
+        margin: 0 0 1rem 0;
+    }
+    .number-plus-flex{
+        margin: 1rem .5rem 1rem .5rem;
+    }
+    .service-flex-container, .Service-title, .Service-title{
+        padding: 3rem 0 0 2rem;
+    }
+    .particular-project{
+        width: 21.2rem;
+    }
+    .main-project-container{
+        margin: 2rem 0 0 .7rem;
+    }
+    .main-project-container img{
+        width: 18rem;
+    }
+    .project-container-img{
+        width: 18rem;
+    }
+    .particular-project span i{
+        margin: 0 0 0 9.2rem;
+    }
+    swiper-container{
+        width: 21.5rem;
+    }
+    .user-name{
+        font-size: 1rem;
+    }
+    .fa-star{
+        font-size: .7rem;
+    }
+    .info img{
+        width: 20rem;
+        margin: 1rem;
+    }
+    .info p{
+        margin: 0 0 3rem 1.7rem;
+    }
+
+    .contact-form{
+        width: 20rem;
+    } 
+    .input-margin-1{
+        margin: 0 2rem 1.5rem 0;
+    }
+    .contact-form form input{
+        width: 16rem;
+        margin: 0rem 0 1.5rem 0;
+    }
+    .contact-form form input.input-width-1{
+        width: 16rem;
+    }
+    footer{
+        display: block;
+        margin: 3rem 0 0 0;
+        padding: 2rem  2rem;
+    }
+    .copy{
+        margin-bottom: 3rem;
+    }
+    .footer-about h3{
+        margin-top: 3rem;
+    }
+    .navigation, .close-karo{
+        display: block;
+    }
+    .mood{
+        display: none;
+    }
+    .hidden-manu{
+        padding: 0rem 0 0 1rem;
+    }
+    .navigation{
+        margin: .7rem 1rem 0 0;
+    }
+    .hidden-nav{
+        display: block;
+    }
+    .right-sibe-bar{
+        width: 22.5rem;
+        height: 45.6rem;
+        position: absolute;
+        top: -45rem;
+        z-index: 9999;
+        transition: .5s;
+    }
+    .nav-container ul li a{
+        writing-mode: horizontal-tb;
+        padding: 1rem 0 1rem 0;
+        font-size: 30px;
+    }
+    .nav-container ul li{
+        padding: 1rem 0;
+    }
+    .language-mood h2{
+        display: inline-block;
+        padding: .6rem .5rem;
+    }
+    .language-mood{
+        padding: 2rem 8rem;
+        margin-bottom: 3rem;
+    }
+}

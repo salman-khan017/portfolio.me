@@ -1,0 +1,48 @@
+@media (max-width: 1115px) {
+
+    .left-sibe-bar{
+        position: absolute;
+        left: -20rem;
+        z-index: 99;
+        transition: .5s;
+    }
+    .hidden-manu{
+        display: block;
+    }
+    .clos-btn{
+        display: block;
+    }
+    .hidden-manu i:hover{
+        color: #ffae00;
+    }
+    .clos-btn i:hover{
+        color: #ffae00;
+    }
+    .fa-xmark{
+    cursor: pointer;
+    }
+    .fa-bars-staggered{
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 640px) {
+    .main-header-banner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-header-banner h1{
+        font-size: 2.5rem;
+    }
+    .auto-code .white{
+        font-size: .8rem;
+    }
+    .explore-btn{
+        padding: .7rem 1.5rem;
+    }
+    .main-header-banner div img{
+        width: 20rem;
+        border-radius: 15px;
+        margin-bottom: 1rem;   
+    }
+}

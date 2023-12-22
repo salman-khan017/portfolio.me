@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Anton&family=Basic&family=Carter+One&family=DM+Serif+Display&family=Dai+Banna+SIL&family=Great+Vibes&family=Lobster+Two&family=Mooli&family=Oswald:wght@500&family=Philosopher:wght@700&family=Phudu&family=Playpen+Sans:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=REM:wght@300&family=Roboto+Slab:wght@500&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #22202C;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+.back-btn{
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #2c2a38;
+    width: 6rem;
+    padding: .4rem 0rem;
+    margin: 2rem 0 0 2rem;
+}
+.back-btn i{
+    margin:  0 .5rem 0 0;
+}
+.back-btn a {
+    color: #fff;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+.hire-flex-box{
+    display: flex;
+    align-items: center;
+    background-color: #2c2a38;
+    padding: 1rem 4rem;
+    margin: .5rem 0;
+}
+.hire-flex-box img{
+    width: 10rem;
+}
+.hire-flex-box p{
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 1rem 2rem 0 2rem;
+}
+.hire-flex-box div a{
+   color: #fff;
+   background-color: #ffae00;
+   padding: .55rem 2rem;
+}
+.hire-flex-box div {
+   margin: 1rem 0 0 0;
+ }
+ .upwork{
+    margin: 1rem 0 0 ;
+ }
+ footer{
+    background-color: #2c2a38;
+    margin: 5rem 0 0 0;
+    padding: 2.5rem 0 2.5rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-name{
+    font-size: 1.5rem;
+    color: #ebebeb;
+    font-weight: 500;
+}
+.footer-name span{
+    color: #FFAE00;
+}
+.footer-profesion{
+    font-size: .9rem;
+    color: #afafaf;
+}
+.copy{
+    color: #ebebeb;
+    margin: 1rem 0 1rem 0;
+}
+.footer-myDetails p{
+    color: #d4d4d4;
+}
+.footer-myDetails i{
+    color: #FFAE00;
+    font-size: 1.2rem;
+    margin: 1rem .8rem 0 0;
+}
+.footer-about{
+    width: 15rem;
+    margin: 1rem 0 0 0;
+}
+.footer-about h3{
+    color: #f0f0f0;
+    font-size: 1.4rem;
+}
+.footer-about p{
+    color: #c9c9c9;
+    font-size: .8rem;
+    margin: .8rem 0 .8rem 0;
+}
+.footer-about a i{
+    color: #FFAE00;
+    font-size: 1.7rem;
+    margin: 0 .5rem 0 0;
+}
+
+
+@media (max-width: 400px) {
+    .back-btn{
+        font-size: .7rem;
+        margin: 1rem 0 0 1.4rem;
+    }
+    .container{
+        width: 20rem;
+        flex-direction: column;
+        align-items:start;
+        margin: 2rem 0 0 1.35rem;
+        padding: 0;
+    }
+    .hire-flex-box{
+        display: flex;
+        justify-content: space-between;
+        padding: .5rem 2.4rem;
+    }
+    .hire-flex-box img{
+        width: 4rem;
+        margin-bottom: .5rem;
+    }
+    .hire-flex-box p{
+        font-size: .8rem;
+        margin-bottom: 1rem;
+    }
+    .hire-flex-box div a{
+       color: #fff;
+       font-size: .6rem;
+       padding: .3rem .3rem;
+    }
+    .hire-flex-box div {
+       margin: .5rem 0 .5rem 0;
+     }
+    footer{
+        display: block;
+        margin: 3rem 0 0 0;
+        padding: 2rem  2rem;
+    }
+    .copy{
+        margin-bottom: 3rem;
+    }
+    .footer-about h3{
+        margin-top: 3rem;
+    }
+}
